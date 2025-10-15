@@ -24,6 +24,12 @@ output/
 *.pdf
 *.md
 
+# Markdown files in output folder only
+output/*.md
+
+# 또는 README.md 제외
+!README.md
+
 # OS
 .DS_Store
 Thumbs.db
