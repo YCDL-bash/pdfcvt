@@ -1,0 +1,15 @@
+# PDF to Markdown Converter - Requirements
+
+# Core PDF processing libraries
+PyMuPDF>=1.23.0         # PDF text and image extraction
+pdfplumber>=0.10.0      # Table extraction from PDFs
+
+# Image processing
+Pillow>=10.0.0          # Image manipulation and conversion
+
+# Data serialization
+PyYAML>=6.0.0           # YAML frontmatter generation
+
+# Optional: For better file type detection (uncomment if needed)
+# python-magic-bin>=0.4.14; platform_system == "Windows"
+# python-magic>=0.4.27; platform_system != "Windows"
